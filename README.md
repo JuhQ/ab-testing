@@ -46,3 +46,9 @@ new window.ab(id, elementId).goal(function() {
 });
 ```
 
+**Demo**
+
+http://ab.bin.fi/
+
+demo@demo.com / demo
+
