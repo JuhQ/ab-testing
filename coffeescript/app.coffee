@@ -65,6 +65,7 @@ if cluster.isMaster
     i++
   cluster.on "exit", (worker, code, signal) ->
     console.log "worker " + worker.process.pid + " died"
+    cluster.fork()
 
 else
 
